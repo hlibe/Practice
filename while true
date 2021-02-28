@@ -1,0 +1,10 @@
+secret = 24  
+while True:       
+    guess = input('Guess the number please:')  
+    if int(guess)==secret:  
+        print('Great guess!') 
+        break
+    elif int(guess)>secret:
+        print('Too big')
+    else:
+        print('Too small')
