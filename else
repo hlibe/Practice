@@ -1,0 +1,12 @@
+secret = 24
+for i in range(3):
+    guess = input('guess which number is my secret:')
+    if  int(guess) ==secret:
+        print('Right!')  #输出结果
+        break
+    elif int(guess)>secret:
+        print('Greater, guess again')
+    else:
+        print('Smaller, guess again')
+else:
+    print('Three times already')
