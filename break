@@ -1,0 +1,7 @@
+for i in range(5):
+    a = int(input('input 0 to stop the loop'))
+    if a == 0:
+        print('break the loop') 
+        break
+else:
+    print('five times already')
